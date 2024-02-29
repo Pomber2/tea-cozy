@@ -5,13 +5,87 @@
 3. Footer
 4. Styling */
 
-/* Hero */
+/* 1. Hero */
 
-/* Body */
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+    background-color: black;
+    margin-bottom: 0;
+}
 
-/* Footer */
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
 
-/* Styling */
+.navigation {
+    float: right;
+    list-style-type: none;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: seashell;
+
+}
+
+
+/* 2. Body */
+
+.photo {
+    background-image: url(media/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+    
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+        
+}
+
+.trend-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+/* 3. Footer */
+
+/* 4. Styling */
 
 body {
     font-family: Helvetica;
@@ -20,4 +94,5 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    margin: 0;
 }
